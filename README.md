@@ -1,5 +1,5 @@
 # One-screen landing page
-1. [DEMO LINK HERE](https://elizabeth-honch.github.io//test_landing_page/)
+  [DEMO LINK HERE](https://elizabeth-honch.github.io//test_landing_page/)
 
 #Local Deployment
 
