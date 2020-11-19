@@ -1,0 +1,73 @@
+.bonus {
+  &:hover {
+    cursor: pointer;
+    animation: spin 5s linear 0s infinite;
+  }
+
+  &__procent {
+    text-shadow: 0 16px 24px #000;
+    color: #fff;
+    font-family: "Cambria", Arial, sans-serif;
+    font-size: 209px;
+    font-weight: 700;
+
+    @media screen and (max-width: 1700px) {
+      display: block;
+      font-size: 100px;
+
+      text-align: center;
+    }
+
+    @media screen and (max-width: 1150px) {
+      font-size: 80px;
+    }
+
+    @media screen and (max-width: 950px) {
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 15px;
+    }
+  }
+
+  &__welcome {
+    text-shadow: 0 16px 24px #000;
+    color: #fff;
+    font-family: "Cambria", Arial, sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 1700px) {
+      display: block;
+
+      font-size: 50px;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 1150px) {
+      font-size: 35px;
+    }
+
+    @media screen and (max-width: 950px) {
+      font-size: 25px;
+    }
+
+    @media screen and (max-width: 700px) {
+      font-size: 15px;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 10px;
+    }
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
