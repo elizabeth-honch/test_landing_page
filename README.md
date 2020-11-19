@@ -1,4 +1,4 @@
-# Project name
+# Project title
   Визитка
 1. [DEMO LINK](https://elizabeth-honch.github.io//test_landing_page/)
 
