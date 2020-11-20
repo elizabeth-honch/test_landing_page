@@ -38,7 +38,7 @@
               >
             </label>
 
-            <button onclick="copyText()" class="copy__btn">copy code</button>
+            <button class="copy__btn">copy code</button>
           </div>
 
           <button class="header__btn">Play now</button>
@@ -47,11 +47,12 @@
     </header>
 
     <script type="text/javascript">
-      function copyText() {
-        const copiedText = document.getElementById("copied__text");
+      const copiedText = document.getElementById("copied__text");
+      const copiedBtn = document.querySelector(".copy__btn");
+      copiedBtn.addEventListener("click", () => {
         copiedText.select();
         document.execCommand("copy");
-      }
+      });
     </script>
   </body>
 </html>
